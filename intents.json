@@ -1,0 +1,87 @@
+{"intents": [
+        {"tag": "verification",
+        "patterns": ["is there Anyone? "],
+        "responses": [" Yup! \nWelcome Dear Customer how can I help?"],
+        "context": [""]
+       },
+
+        {"tag": "greeting",
+         "patterns": [ "How are you"],
+         "responses": ["Hello","Fine\nHow Are you?", "i am fine and you?"],
+         "context": [""]
+        },
+
+        
+      
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+         {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand your question", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you about our products, we are selling products, we providing every help regarding our products", "Offering support for product selling, services"],
+         "context": [""]
+        },
+        {"tag": "serives",
+         "patterns": ["which serivces are you providing?","what services","which services","services" ],
+         "responses": ["we are providing three major services\n--------------------------\n1:Pharmacy Services\n2:Garments serivces\n3:General Store\n sir which one do you want?"],
+         "context": [""]
+        },
+         {"tag": "pharmacy services" ,
+         "patterns": ["List of avalible products in your pharmacies ","pharmacy help","pharmacy service"],
+         "responses": ["We have following Products available Rightnow\n----------------------------------------------------\n1:Panadol ---> Rs 20\n2: Risek 20 mg --->Rs 150\n3:Valsartan 40mg---> Rs 500\n 4:Stain 500mg---> Rs 700\n sir which one you want to buy?"],
+         "context": [""]
+        },
+
+        {"tag": "Garments services",
+         "patterns": ["what are available products in your garments ","services in garments","garments help"],
+         "responses": ["Our garments products have:\n----------------------------------------------------\n1:T shirts ---> Rs 700\n2: Kurta  --->Rs 1500\n3threepiece ---> Rs 5000\n 4:jenns---> Rs 699\n sir which one you want to buy??"],
+         "context": [""]
+        },
+
+        {"tag": "General store services",
+         "patterns": ["Show me avaliable list of products?","General store help","general store services"],
+         "responses": ["\n---------------------\nLists of Products and Prices\n-----------------\n1:Toothpaste-->Rs 50:\n2: Soap-->Rs 70\n3: shampoo--> Rs 250:\n4: maggi pack-->Rs 25\n5: Colddrinks-->Rs 120:\n6: Egg --> Rs 150 per Dozen\n-----------------------------\n\nSir which iteam You want To Buy?\n------------------------------"],
+         "context": [""]
+        },
+        {"tag": "Order",
+        "patterns": ["I want to buy  1 dozen Eggs?", "i want to Maggi", "i want to but soap","i want to but toothpaste","i want to buy colddrinks", "i want to buy shampoo","kurta","t shirt","jenns","three piece","panadol","Risek","Valsartan","stain"],
+        "responses": ["Please place the order:\nSir Your Diverlry Address??"],
+        "context": [""]
+       },
+       {"tag": "Address",
+        "patterns": ["I have Placed order and Send Delivery Address"],
+        "responses": ["Thanks!Our Delivery Boy Reach at your Adress with your Product"],
+        "context": [""]
+       },
+       {"tag": "Bill",
+        "patterns": ["whats the total bill ?"],
+        "responses": ["sir we have provide you the price list please check it accordingly."],
+        "context": [""]
+        } 
+
+       
+
+
+
+        
+
+        
+
+]      
+        
+       
+      
+}
